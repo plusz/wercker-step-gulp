@@ -1,6 +1,6 @@
-# step-[gulp](http://gulpjs.com/)
+# step-gulp
 
-A wercker step to execute commands using the gulp cli.
+A wercker step to execute commands using the [gulp](http://gulpjs.com/) cli.
 
 You should have nodejs and npm installed and you have to add the `gulp`
 package to your package.json.
