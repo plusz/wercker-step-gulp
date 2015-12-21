@@ -1,9 +1,0 @@
-box: debian
-build:
-  steps:
-    - script:
-        name: echo
-        code: |
-          echo "wercker gulp step"
-    - shellcheck:
-            files: run.sh
