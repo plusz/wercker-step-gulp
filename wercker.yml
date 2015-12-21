@@ -5,6 +5,5 @@ build:
         name: echo
         code: |
           echo "wercker gulp step"
-    - validate-wercker-step
     - shellcheck:
             files: run.sh
