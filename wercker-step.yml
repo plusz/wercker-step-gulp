@@ -1,0 +1,21 @@
+name: gulp
+version: 0.1.0
+description: gulp step
+keywords:
+  - gulp
+properties:
+  tasks:
+    type: string
+    required: false
+  debug:
+    type: string
+    required: false
+  verbose:
+    type: string
+    required: false
+  stack:
+    type: string
+    required: false
+  gulpfile:
+    type: string
+    required: false
