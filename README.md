@@ -1,8 +1,10 @@
 # step-gulp
 
+[![wercker status](https://app.wercker.com/status/62f69c1a976679c325cf25fce9282431/m "wercker status")](https://app.wercker.com/project/bykey/62f69c1a976679c325cf25fce9282431)
+
 A wercker step to execute commands using the [gulp](http://gulpjs.com/) cli.
 
-You should have nodejs and npm installed and you have to add the `gulp`
+You should have `nodejs` and `npm` installed and you have to add the `gulp`
 package to your package.json.
 
 ## Example Usage
@@ -23,7 +25,7 @@ build:
 - type: string
 - optional: true
 - description: Tasks which should be run. You can use spaces to specify multiple tasks. If no tasks have been specified, then gulp will run the `default` task.
-- example: `tasks: serve:dev`
+- example: `tasks: dev test`
 
 ### gulpfile
 - type: string
